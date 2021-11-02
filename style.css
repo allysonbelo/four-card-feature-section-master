@@ -17,6 +17,19 @@
 .container{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    margin: 100px auto 70px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main{
+    display: grid;
+    grid-template-areas: 
+    "intro"
+    "supervisor"
+    "team"
+    "karma"
+    "calculator";
 }
 
 .attribution {

@@ -1,0 +1,25 @@
+.intro{
+    grid-area: intro;
+    margin: 0 auto;
+}
+
+.intro__title{
+    text-align: center;
+    width: 300px;
+    color: var(--color-very-dark-blue);
+    font-weight: 200;
+    margin: 0 auto;
+}
+
+.intro span{
+    display: block;
+    font-weight: 900;
+    color: var(--color-very-dark-blue);
+    margin-bottom: 30px;
+}
+
+.intro__text{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
