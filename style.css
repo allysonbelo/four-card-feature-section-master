@@ -20,9 +20,10 @@
     margin: 100px auto 70px auto;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: #fafafa;
 }
 
-.main{
+.content{
     display: grid;
     grid-template-areas: 
     "intro"
@@ -30,6 +31,9 @@
     "team"
     "karma"
     "calculator";
+    min-width: 305px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .attribution {

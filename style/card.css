@@ -1,0 +1,46 @@
+.card{
+    width: 310px;
+    height: 220px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: -3px 5px 10px 5px rgba(0, 0, 0, .1);
+    border-top: 5px solid gray;
+}
+
+.card__title{
+    font-size: 1.1rem;
+    color: var(--color-very-dark-blue);
+}
+
+.card__text{
+    margin-top: .3rem;
+    font-size: .8rem;
+    color: var(--color-grayish-blue);
+}
+
+.supervisor{
+    border-top: 5px solid var(--color-cyan);
+    background: url(../images/icon-supervisor.svg) no-repeat bottom 30px right 30px;
+    background-size: 64px;
+}
+
+.team{
+    border-top: 5px solid var(--color-red);
+    background: url(../images/icon-team-builder.svg) no-repeat bottom 30px right 30px;
+    background-size: 64px;
+}
+
+.karma{
+    border-top: 5px solid var(--color-orange);
+    background: url(../images/icon-karma.svg) no-repeat bottom 30px right 30px;
+    background-size: 64px;
+}
+
+.calculator{
+    border-top: 5px solid var(--color-blue);
+    background: url(../images/icon-calculator.svg) no-repeat bottom 30px right 30px;
+    background-size: 64px;
+}

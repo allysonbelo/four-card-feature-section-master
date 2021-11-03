@@ -22,4 +22,6 @@
     width: 300px;
     text-align: center;
     margin: 0 auto;
+    color: var(--color-grayish-blue);
+    margin-bottom: 60px;
 }
