@@ -1,4 +1,4 @@
-:root{
+:root {
     --color-red: hsl(0, 78%, 62%);
     --color-cyan: hsl(180, 62%, 55%);
     --color-orange: hsl(34, 97%, 64%);
@@ -8,13 +8,13 @@
     --color-very-light-gray: hsl(0, 0%, 98%);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     margin: 100px auto 70px auto;
@@ -23,14 +23,9 @@
     background-color: #fafafa;
 }
 
-.content{
+.content {
     display: grid;
-    grid-template-areas: 
-    "intro"
-    "supervisor"
-    "team"
-    "karma"
-    "calculator";
+    grid-template-areas: "intro" "supervisor" "team" "karma" "calculator";
     min-width: 305px;
     max-width: 100%;
     margin: 0 auto;
@@ -43,4 +38,14 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:1140px) {
+    .desktop {
+        display: grid;
+        grid-template-columns: repeat(3, 355px);
+        grid-template-rows: repeat(2, 125px);
+        margin: 0 auto;
+    }
+
 }

@@ -1,4 +1,4 @@
-.card{
+.card {
     width: 310px;
     height: 220px;
     background-color: #ffffff;
@@ -10,37 +10,80 @@
     border-top: 5px solid gray;
 }
 
-.card__title{
+.card__title {
     font-size: 1.1rem;
     color: var(--color-very-dark-blue);
 }
 
-.card__text{
+.card__text {
     margin-top: .3rem;
     font-size: .8rem;
     color: var(--color-grayish-blue);
 }
 
-.supervisor{
+.supervisor {
     border-top: 5px solid var(--color-cyan);
     background: url(../images/icon-supervisor.svg) no-repeat bottom 30px right 30px;
     background-size: 64px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
-.team{
+.team {
     border-top: 5px solid var(--color-red);
     background: url(../images/icon-team-builder.svg) no-repeat bottom 30px right 30px;
     background-size: 64px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
-.karma{
+.karma {
     border-top: 5px solid var(--color-orange);
     background: url(../images/icon-karma.svg) no-repeat bottom 30px right 30px;
     background-size: 64px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
-.calculator{
+.calculator {
     border-top: 5px solid var(--color-blue);
     background: url(../images/icon-calculator.svg) no-repeat bottom 30px right 30px;
     background-size: 64px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 2;
+}
+
+@media screen and (min-width:778px) {
+    .supervisor {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .team {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .karma {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .calculator {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 2;
+    }
 }
